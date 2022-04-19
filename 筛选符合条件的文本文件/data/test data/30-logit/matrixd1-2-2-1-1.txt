@@ -1,0 +1,24 @@
+
+DIFFERENCE-IN-DIFFERENCES ESTIMATION RESULTS
+Number of observations in the DIFF-IN-DIFF: 5673
+            Before         After    
+   Control: 1371           1461        2832
+   Treated: 1381           1460        2841
+            2752           2921
+--------------------------------------------------------
+ Outcome var.   | FDUV~c2 | S. Err. |   |t|   |  P>|t|
+----------------+---------+---------+---------+---------
+Before          |         |         |         | 
+   Control      | -0.182  |         |         | 
+   Treated      | -0.185  |         |         | 
+   Diff (T-C)   | -0.003  | 0.019   | -0.14   | 0.889
+After           |         |         |         | 
+   Control      | -0.222  |         |         | 
+   Treated      | -0.262  |         |         | 
+   Diff (T-C)   | -0.040  | 0.018   | 2.24    | 0.025**
+                |         |         |         | 
+Diff-in-Diff    | -0.038  | 0.026   | 1.46    | 0.144
+--------------------------------------------------------
+R-square:    0.00
+* Means and Standard Errors are estimated by linear regression
+**Inference: *** p<0.01; ** p<0.05; * p<0.1
